@@ -1,4 +1,4 @@
-# 🚀 Todo NestJS Prisma API
+#  Todo NestJS Prisma API
 
 [![NestJS](https://img.shields.io/badge/NestJS-10.0.0-red.svg)](https://nestjs.com/)
 [![Prisma](https://img.shields.io/badge/Prisma-5.22.0-blue.svg)](https://www.prisma.io/)
