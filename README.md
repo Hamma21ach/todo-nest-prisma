@@ -8,19 +8,19 @@
 
 A modern, scalable **Todo API** built with **NestJS**, **Prisma ORM**, and **PostgreSQL**. This project demonstrates best practices for building RESTful APIs with TypeScript, including proper validation, error handling, and database management.
 
-## ✨ Features
+## Features
 
-- 🔥 **NestJS Framework** - Enterprise-grade Node.js framework
-- 🗄️ **Prisma ORM** - Type-safe database toolkit
-- 🐘 **PostgreSQL** - Robust, production-ready database
-- 🐳 **Docker Support** - Containerized development and production
-- ✅ **TypeScript** - Full type safety and IntelliSense
-- 🔒 **Input Validation** - Request validation using class-validator
-- 🧪 **Testing Ready** - Jest-based testing framework
-- 📚 **API Documentation** - Clear endpoint documentation
-- 🚀 **Hot Reload** - Development mode with auto-restart
+-  **NestJS Framework** - Enterprise-grade Node.js framework
+-  **Prisma ORM** - Type-safe database toolkit
+-  **PostgreSQL** - Robust, production-ready database
+-  **Docker Support** - Containerized development and production
+-  **TypeScript** - Full type safety and IntelliSense
+-  **Input Validation** - Request validation using class-validator
+-  **Testing Ready** - Jest-based testing framework
+-  **API Documentation** - Clear endpoint documentation
+-  **Hot Reload** - Development mode with auto-restart
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 src/
@@ -34,7 +34,7 @@ src/
 └── app.module.ts    # Root application module
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -97,7 +97,7 @@ npm run db:seed
 npm run start:dev
 ```
 
-## 📚 API Endpoints
+##  API Endpoints
 
 ### Tasks
 
@@ -161,7 +161,7 @@ curl -X PATCH http://localhost:3000/api/tasks/:id \
 curl -X PATCH http://localhost:3000/api/tasks/:id/toggle
 ```
 
-## 🗄️ Database Management
+##  Database Management
 
 ### Prisma Commands
 
@@ -217,7 +217,7 @@ docker build -t todo-app .
 docker run -p 3000:3000 --env-file .env todo-app
 ```
 
-## 🧪 Testing
+##  Testing
 
 ```bash
 # Unit tests
@@ -233,7 +233,7 @@ npm run test:cov
 npm run test:e2e
 ```
 
-## 📝 Environment Variables
+##  Environment Variables
 
 | Variable | Description | Default |
 |----------|-------------|---------|
@@ -241,7 +241,7 @@ npm run test:e2e
 | `NODE_ENV` | Application environment | `development` |
 | `PORT` | Application port | `3000` |
 
-## 🔧 Available Scripts
+##  Available Scripts
 
 ```bash
 # Development
@@ -267,7 +267,7 @@ npm run lint           # Run ESLint
 npm run format         # Format code with Prettier
 ```
 
-## 🌟 Project Structure
+##  Project Structure
 
 ```
 todo-nest-prisma/
@@ -296,7 +296,7 @@ todo-nest-prisma/
 └── 📄 README.md            # Project documentation
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions! Please follow these steps:
 
@@ -313,28 +313,28 @@ We welcome contributions! Please follow these steps:
 - Update documentation as needed
 - Ensure all tests pass before submitting
 
-## 📄 License
+##  License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - [NestJS](https://nestjs.com/) - Progressive Node.js framework
 - [Prisma](https://www.prisma.io/) - Next-generation ORM
 - [PostgreSQL](https://www.postgresql.org/) - Advanced open source database
 - [Docker](https://www.docker.com/) - Container platform
 
-## 🆘 Support
+##  Support
 
 Need help? Here are some resources:
 
 - 📖 [Documentation](https://docs.nestjs.com/)
-- 🐛 [Issues](https://github.com/YOUR_USERNAME/todo-nest-prisma/issues)
-- 💬 [Discussions](https://github.com/YOUR_USERNAME/todo-nest-prisma/discussions)
-- 📧 [Email Support](mailto:your-email@example.com)
+- 🐛 [Issues](https://github.com/Hamma21ach/todo-nest-prisma/issues)
+- 💬 [Discussions](https://github.com/Hamma21ach/todo-nest-prisma/discussions)
+- 📧 [Email Support](Mohamed Ayech: ayechm34@gmail.com)
 
 ---
 
-**⭐ Star this repository if you found it helpful!**
+** Star this repository if you found it helpful!**
 
-**Happy coding! 🎉**
+
